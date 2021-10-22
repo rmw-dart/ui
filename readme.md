@@ -5,3 +5,10 @@
 ```
 npm install -g @openkraken/cli
 ```
+
+
+图标
+
+https://feathericons.com
+size 20
+stroke width 1.5

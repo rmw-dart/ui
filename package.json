@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "concurrently --kill-others \"vite build --mode=development --watch\" \"npx nodemon --exec 'kraken ./dist/main.js' --watch 'dist/**/*' -e coffee,js,mjs,json,wasm,txt,yaml\"",
+    "open": "kraken ./dist/main.js",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.2.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "coffeescript": "^2.6.1",
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14",
+    "rollup-plugin-coffee2": "^0.1.16",
+    "rollup-plugin-pug": "^1.1.1",
+    "vite": "^2.6.10"
+  },
+  "type": "module"
+}

@@ -10,7 +10,7 @@ export default defineConfig(
     const isDev = mode !== 'production';
 
     return {
-
+      base: 'http://localhost:5000',
       plugins: [
         coffee({
           bare:true,

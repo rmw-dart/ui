@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "dev": "concurrently --kill-others \"vite build --mode=development --watch\" \"npx nodemon --exec 'kraken ./dist/main.js' --watch 'dist/**/*' -e coffee,js,mjs,json,wasm,txt,yaml\"",
-    "open": "kraken ./dist/main.js",
+    "dev": "concurrently --kill-others \"vite build --mode=development --watch\" \"npx nodemon --exec 'kraken http://localhost:5000/main.js' --watch 'dist/**/*' -e coffee,js,mjs,json,wasm,txt,yaml\"",
     "build": "vite build"
   },
   "dependencies": {

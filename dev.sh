@@ -6,5 +6,5 @@ cd $DIR
 
 . .direnv/bin/pid.sh
 
-yarn dev
+npx concurrently --kill-others "vite preview --host 0.0.0.0" "yarn dev"
 

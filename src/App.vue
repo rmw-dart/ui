@@ -3,7 +3,6 @@ import { ref } from 'vue'
 
 export default {
 setup: =>
-  console.log menu
   counter = ref(0)
   {
 

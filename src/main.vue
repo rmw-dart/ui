@@ -11,11 +11,11 @@ setup: =>
       '订阅'
       '发现'
     ]
-    navAside: [
-      'e617' # 搜索
-      'e60e' # 添加
-      'e618' # 菜单
-    ]
+    #navAside: [
+    #  'e617' # 搜索
+    #  'e60e' # 添加
+    #  'e618' # 菜单
+    #]
 
   }
 }
@@ -30,13 +30,11 @@ nav(
     a(:style="{ fontFamily: 'I', marginLeft: '16px' }") &#xe617;
     a(:style="{ fontFamily: 'I', marginLeft: '16px' }") &#xe60e;
     a(:style="{ fontFamily: 'I', marginLeft: '16px' }") &#xe618;
-
-  //- aside(:style="{ marginLeft: 'auto' }")
-  //-   a(
-  //-     v-for="i in navAside",
-  //-     :style="{ fontFamily: 'I', marginLeft: '16px' }",
-  //-     v-html="'&#x' + i"
-  //-   )
+    //- a(
+    //-   v-for="i in navAside",
+    //-   :style="{ fontFamily: 'I', marginLeft: '16px' }",
+    //-   v-html="'&#x' + i"
+    //- )
 </template>
 
 <style>

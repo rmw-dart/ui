@@ -32,10 +32,10 @@ nav(
     style="margin-right: 16px",
     :style="{ color: p == 0 ? '#000' : '' }"
   ) {{ i }}
-  aside(:style="{ marginLeft: 'auto' }")
-    a(:style="{ fontFamily: 'I', marginLeft: '16px' }") &#xe617
-    a(:style="{ fontFamily: 'I', marginLeft: '16px' }") &#xe60e
-    a(:style="{ fontFamily: 'I', marginLeft: '16px' }") &#xe618
+  aside(style="margin-left: auto")
+    a(style="font-family: I; padding: 10px") &#xe617
+    a(style="font-family: I; padding: 10px") &#xe60e
+    a(style="font-family: I; padding: 10px; margin-right: -10px") &#xe618
     //- a(
     //-   v-for="i in navAside",
     //-   :style="{ fontFamily: 'I', marginLeft: '16px' }",

@@ -42,10 +42,11 @@ nav(
     //-   v-html="'&#x' + i"
     //- )
 main(style="display: flex; border-top: 1rpx solid #aaa")
-  article(style="font-width: 300; padding: 16px")
-    div
+  section(style="font-width: 300; padding: 16px")
+    header(style="margin-bottom: 16px")
       a(style="font-weight: 300") 月光博客
-    div(style="font-weight: 300") 房产税如果普遍征收而没有任何豁免，由于二线以下城市房租无法拟补持有成本，那么房产投资客应该会抛掉二线以下的城市房产，集中购买一线城市的房产，那么二线以下城市的房地产市场估计会崩盘。
+    article(style="font-weight: 300")
+      p 房产税如果普遍征收而没有任何豁免，由于二线以下城市房租无法拟补持有成本，那么房产投资客应该会抛掉二线以下的城市房产，集中购买一线城市的房产，那么二线以下城市的房地产市场估计会崩盘。
 </template>
 
 <style>

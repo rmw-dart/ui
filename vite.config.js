@@ -23,7 +23,7 @@ export default defineConfig(
       build: {
         minify: !isDev,
         rollupOptions: {
-          input: 'src/main.js',
+          input: 'src/main.coffee',
           output: {
             entryFileNames: `[name].js`,
             manualChunks: {}

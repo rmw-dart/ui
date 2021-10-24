@@ -1,12 +1,11 @@
 <script lang="coffee">
-import { ref } from 'vue'
-
+import route from './route.coffee'
+import menu from './menu.vue'
 export default {
 setup: =>
-  counter = ref(0)
   {
-    menuOpen: =>
-      alert "this"
+    menu: =>
+      route.value = menu
     nav:[
       '首页'
       '订阅'
@@ -37,7 +36,7 @@ nav(
     a(style="font-family: I; padding: 10px") &#xe617
     a(style="font-family: I; padding: 10px") &#xe60e
     a(
-      @click="menuOpen",
+      @click="menu",
       style="font-family: I; padding: 10px; margin-right: -10px"
     ) &#xe618
     //- a(

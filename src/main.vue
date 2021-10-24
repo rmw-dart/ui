@@ -1,9 +1,9 @@
 <script lang="coffee">
-import home from './home.vue'
+import route from './route.coffee'
 export default {
 setup: =>
   {
-    I:home
+    I:route
   }
 }
 </script>

@@ -2,14 +2,6 @@ import { createApp } from 'vue'
 import main from './main.vue'
 
 ###
-import {TITLE} from "./title"
-pushState = history.pushState
-history.pushState = ->
-  r = pushState.apply @,arguments
-  window.dispatchEvent new Event('pushState')
-  return r
-###
-
 document.addEventListener(
   "click"
   (e) =>
@@ -28,6 +20,6 @@ document.addEventListener(
     return
 
 )
-
+###
 
 createApp(main).mount(document.body)

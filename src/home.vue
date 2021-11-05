@@ -45,9 +45,9 @@ main(style="overflow-y: scroll; height: 100%")
       //-   :style="{ fontFamily: 'I', marginLeft: '14px' }",
       //-   v-html="'&#x' + i"
       //- )
-  section(style="font-size: 14px; font-width: 300; padding: 14px")
+  section(style="font-size: 14px; font-weight: 300; padding: 14px")
     header
-      a(style="margin-right: 2px; font-weight: 300") 月光博客
+      a(style="margin-right: 2px") 月光博客
       | ：
     article
       p(style="font-weight: 300; padding-top: 14px")

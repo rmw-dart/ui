@@ -7,13 +7,13 @@
     "vue": "^3.2.12"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.9.3",
+    "@vitejs/plugin-vue": "^1.9.4",
     "coffeescript": "^2.6.1",
     "concurrently": "^6.3.0",
     "nodemon": "^2.0.14",
     "rollup-plugin-coffee2": "^0.1.16",
     "rollup-plugin-pug": "^1.1.1",
-    "vite": "^2.6.10"
+    "vite": "^2.6.13"
   },
   "type": "module"
 }
